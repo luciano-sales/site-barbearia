@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/serviços.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Nossos Serviços</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="../img/logo.png" alt="">
+        <div class="logo">Barbearia do Rei </div>
+                <div class="menu">
+                    <div class="dropdown">
+                        <a href="#">Menu</a>
+                        <div class="dropdown-content">
+                            <a href="./portfólio.html">Portfólio da empresa</a>
+                            <a href="./serviços.html">Serviços</a>
+                            <a href="./contato.html">Contatos</a>
+                        </div>
+                    </div>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="main-section">
+                <h1>Serviços</h1>
+                <ul>
+                    <li>Corte de cabelo</li>
+                    <li>Barba</li>
+                    <li>Coloração</li>
+                    <li>Tratamento capilar</li>
+                </ul>
+
+                <h2>Agendamento</h2>
+                <form action="/agendar">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="servico">Serviço:</label>
+                    <select id="servico" name="servico" required>
+                        <option value="corte">Corte de cabelo</option>
+                        <option value="barba">Barba</option>
+                        <option value="coloracao">Coloração</option>
+                        <option value="tratamento">Tratamento capilar</option>
+                    </select><br><br>
+
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" name="data" required><br><br>
+
+                    <label for="hora">Hora:</label>
+                    <input type="time" id="hora" name="hora" required><br><br>
+
+                    <input type="submit" value="Agendar">
+                </form>
+            </div>
+            <footer>
+                <div class="icons">
+                    <img src="../img/facebook.png" width=45px height=45px />
+                    <img src="../img/instagram.png" width=45px height=45px />
+                    <img src="../img/whatsapp.png" width=45px height=45px />
+                </div>
+
+                <div class="enderecos">
+                    <div class="links">
+                        <a href="../index.html">
+                            <h3>Home</h3>
+                        </a>
+                        <a href="./contato.html">
+                            <h3>Contatos</h3>
+                        </a>
+                        <a href="./portfólio.html">
+                            <h3>Portfólio da empresa</h3>
+                        </a>
+                        <p class="footer-copy">&copy; 2024 Meu site. Todos os direitos reservados.</p>
+                    </div>
+                </div>
+            </footer>
+</body>
+
+</html>
